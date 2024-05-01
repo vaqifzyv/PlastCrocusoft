@@ -1,0 +1,252 @@
+{
+  "cards": [
+    {
+      "id": "1",
+      "textAz": "Ağ vərəqlər (A4)",
+      "textEn": "White Papers (A4)",
+      "textRu": "Белые бумаги (A4)",
+      "photo": "../src/assets/a4Paper.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    },
+    {
+      "id": "2",
+      "textAz": "Qəzetlər",
+      "textEn": "Newspapers",
+      "textRu": "Газеты",
+      "photo": "../src/assets/newspaper.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    },
+    {
+      "id": "3",
+      "textAz": "Karton kağızlar",
+      "textEn": "Cardboard Papers",
+      "textRu": "Картонные бумаги",
+      "photo": "../src/assets/cardon.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    },
+    {
+      "id": "4",
+      "textAz": "Arxiv",
+      "textEn": "Archive",
+      "textRu": "Архив",
+      "photo": "../src/assets/archive.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    },
+    {
+      "id": "5",
+      "textAz": "Qarışıq",
+      "textEn": "Mixed",
+      "textRu": "Смешанный",
+      "photo": "../src/assets/mixed.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    }
+  ],
+  "ourCards": [
+    {
+      "id": "1",
+      "textAz": "Ağ vərəqlər (A4)",
+      "textEn": "White Papers (A4)",
+      "textRu": "Белые бумаги (A4)",
+      "photo": "../src/assets/a4Paper.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique."
+    },
+    {
+      "id": "2",
+      "textAz": "Qəzetlər",
+      "textEn": "Newspapers",
+      "textRu": "Газеты",
+      "photo": "../src/assets/newspaper.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique."
+    },
+    {
+      "id": "3",
+      "textAz": "Karton kağızlar",
+      "textEn": "Cardboard Papers",
+      "textRu": "Картонные бумаги",
+      "photo": "../src/assets/cardon.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique."
+    },
+    {
+      "id": "4",
+      "textAz": "Arxiv",
+      "textEn": "Archive",
+      "textRu": "Архив",
+      "photo": "../src/assets/archive.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique."
+    },
+    {
+      "id": "5",
+      "textAz": "Qarışıq",
+      "textEn": "Mixed",
+      "textRu": "Смешанный",
+      "photo": "../src/assets/mixed.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique."
+    }
+  ],
+  "navItems": [
+    {
+      "id": 1,
+      "navigate": "/"
+    },
+    {
+      "id": 2,
+      "navigate": "/main"
+    },
+    {
+      "id": 3,
+      "navigate": "/ourproducts"
+    },
+    {
+      "id": 4,
+      "navigate": "/devices"
+    },
+    {
+      "id": 5,
+      "navigate": "/info"
+    },
+    {
+      "id": 6,
+      "navigate": "/contact"
+    }
+  ],
+  "devices": [
+    {
+      "id": "1",
+      "textAz": "Statik 24",
+      "textEn": "Static 24",
+      "textRu": "Статик 24",
+      "photo": "../src/assets/devicesPhoto1.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    },
+    {
+      "id": "2",
+      "textAz": "Statik 30A",
+      "textEn": "Static 30A",
+      "textRu": "Статик 30A",
+      "photo": "../src/assets/devicesPhoto2.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    },
+    {
+      "id": "3",
+      "textAz": "Statik ST-40 üfüqi",
+      "textEn": "Static ST-40 horizontal",
+      "textRu": "Статик ST-40 горизонтальный",
+      "photo": "../src/assets/devicesPhoto3.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    },
+    {
+      "id": "4",
+      "textAz": "Statik 24",
+      "textEn": "Static 24",
+      "textRu": "Статик 24",
+      "photo": "../src/assets/devicesPhoto4.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    },
+    {
+      "id": "5",
+      "textAz": "Statik 30A",
+      "textEn": "Static 30A",
+      "textRu": "Статик 30A",
+      "photo": "../src/assets/devicesPhoto5.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    },
+    {
+      "id": "6",
+      "textAz": "Statik ST-40 üfüqi",
+      "textEn": "Static ST-40 horizontal",
+      "textRu": "Статик ST-40 горизонтальный",
+      "photo": "../src/assets/devicesPhoto6.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    }
+  ],
+  "search": [
+    {
+      "id": "1",
+      "textAz": "Statik 24",
+      "textEn": "Static 24",
+      "textRu": "Статик 24",
+      "photo": "../src/assets/devicesPhoto1.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    },
+    {
+      "id": "2",
+      "textAz": "Statik 30A",
+      "textEn": "Static 30A",
+      "textRu": "Статик 30A",
+      "photo": "../src/assets/devicesPhoto2.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    },
+    {
+      "id": "3",
+      "textAz": "Statik ST-40 üfüqi",
+      "textEn": "Static ST-40 horizontal",
+      "textRu": "Статик ST-40 горизонтальный",
+      "photo": "../src/assets/devicesPhoto3.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    },
+    {
+      "id": "4",
+      "textAz": "Statik 24",
+      "textEn": "Static 24",
+      "textRu": "Статик 24",
+      "photo": "../src/assets/devicesPhoto4.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    },
+    {
+      "id": "5",
+      "textAz": "Statik 30A",
+      "textEn": "Static 30A",
+      "textRu": "Статик 30A",
+      "photo": "../src/assets/devicesPhoto5.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    },
+    {
+      "id": "6",
+      "textAz": "Statik ST-40 üfüqi",
+      "textEn": "Static ST-40 horizontal",
+      "textRu": "Статик ST-40 горизонтальный",
+      "photo": "../src/assets/devicesPhoto6.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique nulla. Ipsum vel ullamcorper pulvinar vulputate non non nisi a."
+    },
+    {
+      "id": "7",
+      "textAz": "Ağ vərəqlər (A4)",
+      "textEn": "White Papers (A4)",
+      "textRu": "Белые бумаги (A4)",
+      "photo": "../src/assets/a4Paper.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique."
+    },
+    {
+      "id": "8",
+      "textAz": "Qəzetlər",
+      "textEn": "Newspapers",
+      "textRu": "Газеты",
+      "photo": "../src/assets/newspaper.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique."
+    },
+    {
+      "id": "9",
+      "textAz": "Karton kağızlar",
+      "textEn": "Cardboard Papers",
+      "textRu": "Картонные бумаги",
+      "photo": "../src/assets/cardon.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique."
+    },
+    {
+      "id": "10",
+      "textAz": "Arxiv",
+      "textEn": "Archive",
+      "textRu": "Архив",
+      "photo": "../src/assets/archive.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique."
+    },
+    {
+      "id": "11",
+      "textAz": "Qarışıq",
+      "textEn": "Mixed",
+      "textRu": "Смешанный",
+      "photo": "../src/assets/mixed.png",
+      "description": "Interdum at a, vestibulum porta tristique penatibus feugiat tristique."
+    }
+  ]
+}

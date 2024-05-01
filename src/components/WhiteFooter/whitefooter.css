@@ -1,0 +1,63 @@
+.WhiteFooterContainer {
+  background-color: #f8f8f7;
+}
+
+.WhiteFooter {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.MuiSvgIcon-root {
+  width: 56px;
+  height: 56px;
+}
+
+.WhiteFooterTop {
+  padding-block: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #000;
+}
+
+.WhiteFooterTopBars {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.WhiteFooterTopBarsList > li {
+  margin-bottom: 12px;
+}
+
+.WhiteFooterTopBarsList > li > a {
+  color: #000;
+  transition: 0.3s;
+  margin-bottom: 16px;
+}
+
+.WhiteFooterTopBarsList > li > a:hover {
+  border-left: 1px solid #00ad33;
+  padding-left: 10px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.icons > div:hover {
+  position: relative;
+  top: -5px;
+}
+
+.WhiteFooterBottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 30px;
+  border-top: 1px solid #000;
+}

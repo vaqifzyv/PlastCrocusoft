@@ -1,0 +1,61 @@
+.OurProductsTop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-block: 32px;
+}
+
+.OurProductsTop p {
+  margin-left: 10px;
+}
+
+.ourCardsContainer {
+  background-color: #090c06;
+}
+
+.ourCards {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding-block: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ourCard {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ourCards h2 {
+  color: #fff;
+  font-size: 16px;
+}
+
+.ourCards p {
+  color: #979b94;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.ourCards img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 7px 0 0 5px;
+  border: 3px solid #00ad33;
+}
+
+.ourCardButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}

@@ -1,0 +1,63 @@
+.FooterSectionContainer {
+  background-color: #090c06;
+}
+
+.FooterSection {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.MuiSvgIcon-root {
+  width: 56px;
+  height: 56px;
+}
+
+.FooterSectionTop {
+  padding-block: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.FooterSectionTopBars {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.FooterSectionTopBarsList > li {
+  margin-bottom: 12px;
+}
+
+.FooterSectionTopBarsList > li > a {
+  color: #858585;
+  transition: 0.3s;
+  margin-bottom: 16px;
+}
+
+.FooterSectionTopBarsList > li > a:hover {
+  border-left: 1px solid #00ad33;
+  padding-left: 10px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.icons > div:hover {
+  position: relative;
+  top: -5px;
+}
+
+.FooterSectionBottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 30px;
+  border-top: 1px solid #fff;
+}

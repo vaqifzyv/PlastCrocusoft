@@ -1,0 +1,58 @@
+.ContactSectionTop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-block: 32px;
+}
+
+.ContactSectionBottomContainer {
+  background-color: #090c06;
+  color: white;
+  padding-block: 60px;
+}
+
+.ContactSectionTop p {
+  margin-left: 10px;
+}
+
+.message {
+  width: 202%;
+}
+
+.ContactSectionBottomContainer {
+  background-color: #090c06;
+  color: white;
+}
+
+.ContactSectionBottom {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+  color: black;
+}
+
+.ContactSectionBottom label {
+  color: white;
+}
+
+.ContactSectionBottom .MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+
+.ContactSectionBottom .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #00ad33 !important;
+}
+
+.ContactSectionBottom input {
+  color: white !important;
+}
+
+.ContactSectionBottomButton {
+  width: 80%;
+  margin: 0 auto;
+}
