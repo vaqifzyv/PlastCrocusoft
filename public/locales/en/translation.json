@@ -70,5 +70,12 @@
   "footerContact": "Contact Us",
   "footerLocationLabel": "Our Location",
   "footerLocation": "Baku, Fikret Amirov 24, Perron Gallery second floor. ( Near to 28 may metro station )",
-  "footerRight": "All rights reserved."
+  "footerRight": "All rights reserved.",
+  "size": "Weight",
+  "category": "Category",
+  "paper": "Papers",
+  "cardboard": "Cardboards",
+  "devices": "Devices",
+  "mixed": "Mixed",
+  "newspaper": "Newspapers"
 }

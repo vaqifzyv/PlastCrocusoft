@@ -70,5 +70,12 @@
   "footerContact": "Bizimlə əlaqə",
   "footerLocationLabel": "Bizim Məkan",
   "footerLocation": "Bakı şəhəri, Fikrət Əmirov 24, Perron Galleri 2-ci mərtəbə. ( 28 may metro stansiyasının yanı)",
-  "footerRight": "Bütün hüquqlar qorunur."
+  "footerRight": "Bütün hüquqlar qorunur.",
+  "size": "Çəkisi",
+  "category": "Kateqoriya",
+  "paper": "Kağızlar",
+  "cardboard": "Karton Kağızlar",
+  "devices": "Cihaz",
+  "mixed": "Qarığıq",
+  "newspaper": "Qəzetlər"
 }

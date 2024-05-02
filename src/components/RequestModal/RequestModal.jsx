@@ -7,8 +7,12 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import "./requestmodal.css";
+import { initReactI18next, useTranslation } from "react-i18next";
+import i18n from "i18next";
 
 function RequestModal() {
+  const { t } = useTranslation();
+
   const [formData, setFormData] = React.useState({
     category: "",
     size: "",
@@ -66,10 +70,10 @@ function RequestModal() {
       }}
     >
       <Typography variant="h4" sx={{ color: "#002633" }}>
-        MÜRACİƏT ET
+        {t("contactBtn")}
       </Typography>
       <FormControl className="modal-form" fullWidth>
-        <InputLabel id="demo-simple-select-label">Category</InputLabel>
+        <InputLabel id="demo-simple-select-label">{t("category")}</InputLabel>
         <Select
           labelId="category"
           value={formData.category}
@@ -77,29 +81,29 @@ function RequestModal() {
           name="category"
           onChange={handleChange}
         >
-          <MenuItem value={"paper"}>Kağızlar</MenuItem>
-          <MenuItem value={"cardon"}>Karton Kağızlar</MenuItem>
-          <MenuItem value={"device"}>Cihaz</MenuItem>
-          <MenuItem value={"mixed"}>Qarığıq</MenuItem>
-          <MenuItem value={"newspaper"}>Qəzetlər</MenuItem>
+          <MenuItem value={"paper"}>{t("paper")}</MenuItem>
+          <MenuItem value={"cardon"}>{t("paper")}</MenuItem>
+          <MenuItem value={"device"}>{t("devices")}</MenuItem>
+          <MenuItem value={"mixed"}>{t("mixed")}</MenuItem>
+          <MenuItem value={"newspaper"}>{t("newspaper")}</MenuItem>
         </Select>
         <TextField
           id="size"
-          label="Çəkisi"
+          label={t("size")}
           value={formData.size}
           name="size"
           onChange={handleChange}
         />
         <TextField
           id="namesur"
-          label="Ad və soyad"
+          label={t("yourname")}
           value={formData.name}
           name="name"
           onChange={handleChange}
         />
         <TextField
           id="number"
-          label="Əlaqə nömrəniz"
+          label={t("mobileNum")}
           type="text"
           value={formData.number}
           name="number"
@@ -116,7 +120,7 @@ function RequestModal() {
           }}
         >
           {" "}
-          Müraciət et
+          {t("contactBtn")}
         </Button>
       </FormControl>
     </div>

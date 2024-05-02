@@ -5,7 +5,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import "./WhiteFooter.css";
+import "./whitefooter.css";
 import { initReactI18next, useTranslation } from "react-i18next";
 import i18n from "i18next";
 
