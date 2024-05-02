@@ -1,6 +1,6 @@
 nav {
   position: relative;
-  background-image: url("src/assets/mainBg.png");
+  background-image: url("../../../public/mainBg.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

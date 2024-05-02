@@ -6,7 +6,7 @@ import { NavLink, useLocation } from "react-router-dom";
 import "../navbar.css";
 import { useGetNavItemsQuery } from "/src/redux/api/prApi.js";
 import i18n from "i18next";
-import { initReactI18next, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
