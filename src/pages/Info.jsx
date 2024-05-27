@@ -10,8 +10,8 @@ function Info() {
   return (
     <div>
       <InfoSectionBottom />
-      <div className="InfoSectionSecondBottom">
-        <div className="InfoSectionSecondBottomText">
+      <div className="InfoSectionBottom">
+        <div className="InfoSectionBottomText">
           <Typography variant="h4" color="initial" sx={{ fontWeight: 700 }}>
             {t("whatAreWeDoing")}
           </Typography>
