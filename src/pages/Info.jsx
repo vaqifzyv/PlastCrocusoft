@@ -3,15 +3,15 @@ import Typography from "@mui/material/Typography";
 import forest from "../assets/infoSectionSecond.png";
 import { initReactI18next, useTranslation } from "react-i18next";
 import i18n from "i18next";
-
+import "../components/InfoSection/infosection.css";
 function Info() {
   const { t } = useTranslation();
 
   return (
     <div>
       <InfoSectionBottom />
-      <div className="InfoSectionBottom">
-        <div className="InfoSectionBottomText">
+      <div className="InfoSectionSecondBottom">
+        <div className="InfoSectionSecondBottomText">
           <Typography variant="h4" color="initial" sx={{ fontWeight: 700 }}>
             {t("whatAreWeDoing")}
           </Typography>

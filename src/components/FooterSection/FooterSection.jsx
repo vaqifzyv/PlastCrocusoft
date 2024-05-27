@@ -8,6 +8,7 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import "./footersection.css";
 import { initReactI18next, useTranslation } from "react-i18next";
 import i18n from "i18next";
+import "./footersection.css";
 
 function FooterSection() {
   const { t } = useTranslation();

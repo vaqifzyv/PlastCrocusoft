@@ -4,7 +4,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const prApi = createApi({
   reducerPath: "prApi",
-  baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:8000" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "https://plastapi.onrender.com" }),
   endpoints: (build) => ({
     getCards: build.query({
       query: () => `cards`,

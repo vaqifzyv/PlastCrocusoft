@@ -1,3 +1,57 @@
+@media (max-width: 480px) {
+  .ContactSectionTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-block: 32px;
+  }
+
+  .ContactSectionBottomContainer {
+    background-color: #090c06;
+    color: white;
+    padding-block: 60px;
+  }
+
+  .ContactSectionTop p {
+    margin-left: 10px;
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 769px) {
+  .ContactSectionTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-block: 32px;
+  }
+
+  .ContactSectionTop p {
+    margin-left: 10px;
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .ContactSectionTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-block: 32px;
+  }
+
+  .ContactSectionTop p {
+    margin-left: 10px;
+    font-size: 56px;
+  }
+}
+
 .ContactSectionTop {
   display: flex;
   flex-direction: row;

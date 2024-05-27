@@ -4,6 +4,7 @@ import { Button, Modal } from "@mui/material";
 import RequestModal from "../../RequestModal/RequestModal";
 import { initReactI18next, useTranslation } from "react-i18next";
 import i18n from "i18next";
+import "../ourproducts.css";
 
 function OurProductsBottom() {
   const { data = [], isLoading } = useGetOurCardsQuery();
@@ -42,10 +43,8 @@ function OurProductsBottom() {
                 variant="contained"
                 style={{
                   backgroundColor: "#00ad33",
-                  fontSize: "12px",
-                  padding: "8px 12px",
                   marginTop: "30px",
-                  fontWeight: "700",
+                  fontWeight: "600",
                 }}
               >
                 {" "}
@@ -55,10 +54,8 @@ function OurProductsBottom() {
                 variant="contained"
                 style={{
                   backgroundColor: "#090c06",
-                  fontSize: "12 px",
-                  padding: "8px 12px",
                   marginTop: "30px",
-                  fontWeight: "700",
+                  fontWeight: "600",
                 }}
               >
                 {" "}

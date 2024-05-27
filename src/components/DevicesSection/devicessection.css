@@ -1,12 +1,234 @@
-.card::before {
-  content: "5,400azn";
-  position: relative;
-  top: 15px;
-  left: 10px;
-  background-color: #090c06;
-  border-radius: 12px;
-  padding: 10px 12px;
-  font-size: 16px;
-  font-weight: 700;
-  color: #fff;
+@media (max-width: 480px) {
+  .devicesCard {
+    width: 90%;
+    padding: 24px;
+    margin: 6px auto;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .devicesCard::before {
+    content: "5 azn / 1 kg";
+    position: relative;
+    top: 15px;
+    left: 10px;
+    background-color: #090c06;
+    border-radius: 12px;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .devicesCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 50px 0px,
+      rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
+  }
+
+  .cardButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .devicesSectionImg {
+    width: 100%;
+  }
+
+  .modalContent img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .modalContent p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  .cardButtons Button {
+    font-size: 12px;
+    padding: 8px 12px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 769px) {
+  .devicesCards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-block: 56px;
+  }
+
+  .devicesCard {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 24px;
+    margin: 16px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .devicesCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 50px 0px,
+      rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
+  }
+
+  .devicesCard p {
+    font-size: 14px;
+    width: 80%;
+    color: #4d504b;
+    margin-block: 16px;
+  }
+
+  .devicesCard::before {
+    content: "5 azn / 1 kg";
+    position: relative;
+    top: -185px;
+    left: 10px;
+    background-color: #090c06;
+    border-radius: 12px;
+    padding: 10px 12px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .cardButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .modal {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow: auto;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .modalContent {
+    text-align: center;
+  }
+
+  .modalContent h2 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .modalContent img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .modalContent p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+
+  .cardButtons Button {
+    font-size: 14px;
+    padding: 8px 24px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .devicesCards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-block: 56px;
+  }
+
+  .devicesCard::before {
+    content: "5 azn / 1 kg";
+    position: relative;
+    top: 15px;
+    left: 10px;
+    background-color: #090c06;
+    border-radius: 12px;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .devicesCard {
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 24px;
+    margin: 16px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .devicesCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 50px 0px,
+      rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
+  }
+  .cardButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .devicesSectionImg {
+    width: 100%;
+  }
+
+  .modalContent img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .modalContent p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  .cardButtons Button {
+    font-size: 12px;
+    padding: 8px 12px;
+    font-weight: 500;
+  }
+  .cardButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
 }

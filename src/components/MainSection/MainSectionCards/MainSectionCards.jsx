@@ -5,7 +5,7 @@ import { useGetCardsQuery } from "/src/redux/api/prApi.js";
 import RequestModal from "../../RequestModal/RequestModal";
 import { initReactI18next, useTranslation } from "react-i18next";
 import i18n from "i18next";
-
+import "../mainsection.css";
 function MainSectionCards() {
   const { data = [], isLoading } = useGetCardsQuery();
   const [open, setOpen] = useState(false);
@@ -35,10 +35,10 @@ function MainSectionCards() {
 
   return (
     <div>
-      <div className="cards">
+      <div className="mainSectionCards">
         {data.map((card, index) => (
-          <div key={card.id} className="card">
-            <img src={card.photo} />
+          <div key={card.id} className="mainSectionCard">
+            <img src={card.photo} className="mainSectionImg" />
             <h2>
               {t(`mainSectionCards.mainCard${index + 1}`, {
                 defaultValue: `mainCard${index + 1}`,
@@ -51,9 +51,8 @@ function MainSectionCards() {
                 style={{
                   color: "#000",
                   backgroundColor: "#F8F8F7",
-                  fontSize: "14px",
-                  padding: "8px 24px",
                   marginTop: "30px",
+                  fontWeight: "600",
                 }}
                 onClick={() => handleOpen(card)}
               >
@@ -64,9 +63,8 @@ function MainSectionCards() {
                 variant="contained"
                 style={{
                   backgroundColor: "#00ad33",
-                  fontSize: "14px",
-                  padding: "8px 24px",
                   marginTop: "30px",
+                  fontWeight: "600",
                 }}
               >
                 {t("contactBtn")}

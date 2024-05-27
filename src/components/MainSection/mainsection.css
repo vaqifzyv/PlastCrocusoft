@@ -1,105 +1,300 @@
-.MainSectionTop {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: #090c06;
-  padding-block: 32px;
+@media (max-width: 480px) {
+  .MainSectionTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #090c06;
+    padding-block: 32px;
+  }
+
+  .MainSectionTop p {
+    margin-left: 10px;
+  }
+
+  .mainSectionCard {
+    width: 90%;
+    padding: 24px;
+    margin: 6px auto;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .mainSectionCard::before {
+    content: "5 azn / 1 kg";
+    position: relative;
+    top: 15px;
+    left: 10px;
+    background-color: #090c06;
+    border-radius: 12px;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .mainSectionCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 50px 0px,
+      rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
+  }
+
+  .cardButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .mainSectionImg {
+    width: 100%;
+  }
+
+  .modalContent img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .modalContent p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  .cardButtons Button {
+    font-size: 12px;
+    padding: 8px 12px;
+    font-weight: 500;
+  }
 }
 
-.MainSectionTop p {
-  margin-left: 10px;
+@media (min-width: 481px) and (max-width: 769px) {
+  .MainSectionTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #090c06;
+    padding-block: 32px;
+  }
+
+  .MainSectionTop p {
+    margin-left: 10px;
+  }
+
+  .mainSectionCards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-block: 56px;
+  }
+
+  .mainSectionCard {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 24px;
+    margin: 16px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .mainSectionCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 50px 0px,
+      rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
+  }
+
+  .mainSectionCard p {
+    font-size: 14px;
+    width: 80%;
+    color: #4d504b;
+    margin-block: 16px;
+  }
+
+  .mainSectionCard::before {
+    content: "5 azn / 1 kg";
+    position: relative;
+    top: -185px;
+    left: 10px;
+    background-color: #090c06;
+    border-radius: 12px;
+    padding: 10px 12px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .cardButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .modal {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow: auto;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .modalContent {
+    text-align: center;
+  }
+
+  .modalContent h2 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .modalContent img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .modalContent p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+
+  .cardButtons Button {
+    font-size: 14px;
+    padding: 8px 24px;
+  }
 }
 
-.cards {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 90%;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  margin-block: 56px;
-}
+@media (min-width: 1281px) {
+  .MainSectionTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #090c06;
+    padding-block: 32px;
+  }
 
-.card {
-  width: 30%;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
-    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-  padding: 24px;
-  margin: 16px;
-  border-radius: 8px;
-  transition: box-shadow 0.3s ease-in-out;
-}
+  .MainSectionTop p {
+    margin-left: 10px;
+  }
 
-.card:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 50px 0px,
-    rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
-}
+  .mainSectionCards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-block: 56px;
+  }
 
-.card p {
-  font-size: 14px;
-  width: 80%;
-  color: #4d504b;
-  margin-block: 16px;
-}
+  .mainSectionCard {
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 24px;
+    margin: 16px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
 
-.card::before {
-  content: "5 azn / 1 kg";
-  position: relative;
-  top: 15px;
-  left: 10px;
-  background-color: #090c06;
-  border-radius: 12px;
-  padding: 10px 12px;
-  font-size: 16px;
-  font-weight: 700;
-  color: #fff;
-}
+  .mainSectionCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 50px 0px,
+      rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
+  }
 
-.cardButtons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
+  .mainSectionCard p {
+    font-size: 14px;
+    width: 80%;
+    color: #4d504b;
+    margin-block: 16px;
+  }
 
-.modal {
-  background-color: rgba(255, 255, 255, 0.9);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  max-width: 90vw;
-  max-height: 90vh;
-  overflow: auto;
-  transition: opacity 0.3s ease-in-out;
-}
+  .mainSectionCard::before {
+    content: "5 azn / 1 kg";
+    position: relative;
+    top: 15px;
+    left: 10px;
+    background-color: #090c06;
+    border-radius: 12px;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+  }
 
-.modalContent {
-  text-align: center;
-}
+  .cardButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-.modalContent h2 {
-  color: #333333;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
+  .modal {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow: auto;
+    transition: opacity 0.3s ease-in-out;
+  }
 
-.modalContent img {
-  max-width: 100%;
-  height: auto;
-  margin-top: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+  .modalContent {
+    text-align: center;
+  }
 
-.modalContent p {
-  color: #666666;
-  font-size: 16px;
-  line-height: 1.5;
-  margin-top: 20px;
+  .modalContent h2 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .modalContent img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .modalContent p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+
+  .cardButtons Button {
+    font-size: 14px;
+    padding: 8px 24px;
+  }
 }

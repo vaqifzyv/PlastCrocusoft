@@ -35,10 +35,10 @@ function DevicesSection() {
 
   return (
     <div>
-      <div className="cards">
+      <div className="devicesCards">
         {data.map((card, index) => (
-          <div key={card.id} className="card">
-            <img src={card.photo} />
+          <div key={card.id} className="devicesCard">
+            <img src={card.photo} className="devicesSectionImg" />
             <h2>
               {t(`devicesSectionCards.devicesCard${index + 1}`, {
                 defaultValue: `devicesCard${index + 1}`,
@@ -51,8 +51,6 @@ function DevicesSection() {
                 style={{
                   color: "#000",
                   backgroundColor: "#F8F8F7",
-                  fontSize: "14px",
-                  padding: "8px 24px",
                   marginTop: "30px",
                 }}
                 onClick={() => handleOpen(card)}
@@ -64,8 +62,6 @@ function DevicesSection() {
                 variant="contained"
                 style={{
                   backgroundColor: "#00ad33",
-                  fontSize: "14px",
-                  padding: "8px 24px",
                   marginTop: "30px",
                 }}
               >

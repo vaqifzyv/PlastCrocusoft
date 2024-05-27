@@ -1,49 +1,202 @@
-.searchCardsContainer {
-  background-color: #fff;
+@media (min-width: 1281px) {
+  .searchCardsContainer {
+    background-color: #fff;
+  }
+
+  .searchCards {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding-block: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+
+  .searchCard {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .searchCards h2 {
+    color: #000;
+    font-size: 16px;
+  }
+
+  .searchCards p {
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .searchCards img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 7px 0 0 5px;
+    border: 3px solid #00ad33;
+  }
+
+  .searchCardButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .search {
+    background-color: #fff;
+    position: absolute;
+    top: -300px;
+    left: 440px;
+    width: 40%;
+    border-radius: 20px;
+  }
+  .searchResult {
+    margin-left: 100px;
+  }
 }
 
-.searchCards {
-  display: flex;
-  width: 90%;
-  margin: 0 auto;
-  padding-block: 70px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 35px;
+@media (min-width: 481px) and (max-width: 769px) {
+  .searchCardsContainer {
+    background-color: #fff;
+  }
+
+  .searchCards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-block: 56px;
+  }
+
+  .searchCard {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 24px;
+    margin: 16px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .searchCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 50px 0px,
+      rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
+  }
+  .searchCards h2 {
+    color: #000;
+    font-size: 16px;
+  }
+
+  .searchCards p {
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .searchCards img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 7px 0 0 5px;
+    border: 3px solid #00ad33;
+  }
+
+  .searchCardButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .search {
+    background-color: #fff;
+    position: absolute;
+    top: -300px;
+    left: 230px;
+    width: 40%;
+    border-radius: 20px;
+  }
+  .searchResult {
+    margin-left: 50px;
+  }
 }
 
-.searchCard {
-  width: 23%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+@media (max-width: 480px) {
+  .searchCardsContainer {
+    background-color: #fff;
+  }
 
-.searchCards h2 {
-  color: #000;
-  font-size: 16px;
-}
+  .searchCards {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding-block: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+  }
 
-.searchCards p {
-  color: #000;
-  font-size: 14px;
-  line-height: 20px;
-}
+  .searchCard {
+    width: 90%;
+    padding: 24px;
+    margin: 6px auto;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .searchCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 50px 0px,
+      rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
+  }
 
-.searchCards img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  margin: 7px 0 0 5px;
-  border: 3px solid #00ad33;
-}
+  .searchCards h2 {
+    color: #000;
+    font-size: 16px;
+  }
 
-.searchCardButtons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  justify-content: space-around;
+  .searchCards p {
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .searchCards img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 7px 0 0 5px;
+    border: 3px solid #00ad33;
+  }
+
+  .searchCardButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .search {
+    background-color: #fff;
+    position: absolute;
+    top: -300px;
+    left: 90px;
+    width: 40%;
+    border-radius: 20px;
+  }
+  .searchResult {
+    margin-left: 50px;
+  }
 }

@@ -3,6 +3,7 @@ import manPhoto from "../../../assets/infoSectionImg.png";
 import Typography from "@mui/material/Typography";
 import { initReactI18next, useTranslation } from "react-i18next";
 import i18n from "i18next";
+import "../infosection.css";
 
 function InfoSectionBottom() {
   const { t } = useTranslation();

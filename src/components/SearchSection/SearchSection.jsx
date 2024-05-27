@@ -18,24 +18,25 @@ function SearchSection() {
     <div>
       <div>
         <TextField
-          id="search"
+          className="search"
           label={t("search")}
           onChange={(e) => setSearch(e.target.value)}
-          sx={{
-            backgroundColor: "#fff",
-            position: "absolute",
-            top: "360px",
-            left: "440px",
-            width: "40%",
-            borderRadius: "20px",
-          }}
+          // sx={{
+          //   backgroundColor: "#fff",
+          //   position: "absolute",
+          //   top: "360px",
+          //   left: "440px",
+          //   width: "40%",
+          //   borderRadius: "20px",
+          // }}
         />
       </div>
       <div>
         <RenderIf condition={search !== ""}>
           <Typography
+            className="searchResult"
             variant="h6"
-            sx={{ color: "grey", marginLeft: "100px", marginTop: "30px" }}
+            sx={{ color: "grey", marginLeft: "50px" }}
           >
             "{search}" {t("resultKeyword")}
           </Typography>
